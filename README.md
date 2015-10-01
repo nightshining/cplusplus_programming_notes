@@ -142,7 +142,7 @@ void ofApp::setup(){
         tempSound->loadSound(soundDir.getPath(i));
         tempSound->setLoop(false);
         tempSound->setMultiPlay(true);
-        cout << "Loading Movie: " << soundDir.getPath(i) << endl;
+        cout << "Loading Sounds: " << soundDir.getPath(i) << endl;
         
         sounds.push_back(tempSound);
     }
